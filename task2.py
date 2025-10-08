@@ -5,4 +5,4 @@ def mass():
         mass = force_/acceleration
         print(f"Вычисленная масса: {mass} кг")
     else:print("Ошибка: ускорение равно нулю")
-mass()
+#mass()

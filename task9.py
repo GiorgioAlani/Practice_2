@@ -5,6 +5,6 @@ def frequency():
         print(f"Частота: {frequency} Гц")
     else:
         print("Ошибка: период равен нулю")
-frequency()
+#frequency()
         
   

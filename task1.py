@@ -5,4 +5,4 @@ def speed():
         velocity = distance/time
         print(f"Вычисленная скорость: {velocity} км/ч")
     else:print("Ошибка: время равно нулю")
-speed()
+#speed()

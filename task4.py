@@ -3,4 +3,4 @@ def work():
     acceleration = int(input("Введите расстояние в метрах: "))
     work = force_* acceleration
     print(f"Вычисленная работа: {work} Дж")
-work()
+#work()

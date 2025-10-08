@@ -4,5 +4,5 @@ def qofheat():
     deltat = float(input("Введите изменение темпертауры в цельсиях: "))
     heat = mass * udel * deltat
     print(f"Количество теплоты: {round(heat,2)} Дж")
-qofheat()
+#qofheat()
     
