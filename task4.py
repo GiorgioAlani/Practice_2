@@ -1,6 +1,6 @@
 def work():
-    force_ = int(input("Введите силу: "))
-    acceleration = int(input("Введите расстояние: "))
+    force_ = int(input("Введите силу в ньютонах: "))
+    acceleration = int(input("Введите расстояние в метрах: "))
     work = force_* acceleration
-    print(f"{work} Дж")
+    print(f"Вычисленная работа: {work} Дж")
 work()
