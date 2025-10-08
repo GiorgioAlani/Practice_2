@@ -1,8 +1,8 @@
 def mass():
-    force_ = int(input("Введите силу: "))
-    acceleration = int(input("Введите ускорение: "))
+    force_ = int(input("Введите силу в Ньютонах: "))
+    acceleration = int(input("Введите ускорение в метрах на секунду в квадрате: "))
     if acceleration!=0:
         mass = force_/acceleration
-        print(f"{mass} кг")
+        print(f"Вычисленная масса: {mass} кг")
     else:print("Ошибка: ускорение равно нулю")
 mass()
